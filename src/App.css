@@ -1,0 +1,57 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+  display: flex;
+  width: auto;
+  height: 10rem;
+  background: rgb(153, 7, 140) linear-gradient(90deg, rgb(112, 6, 103) 0%, rgb(216, 58, 216) 100%);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar img {
+  width: auto;
+  height: 6rem;
+  margin-left: 4rem;
+}
+
+.navbar h1 {
+  margin-right: 47rem;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar h3 {
+  margin-right: 8rem;
+  color: white;
+  font-weight: light;
+  font-size: 1.3rem;
+}
+
+.Meme_Form{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.Meme_Form input {
+  width: 40rem;
+  height: 3rem;
+  text-align: center;
+}
+
+.Meme_Form button {
+  width: 83rem;
+  height: 4rem;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
